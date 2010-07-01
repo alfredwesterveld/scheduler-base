@@ -33,4 +33,9 @@ public class SchedulerTest {
         scheduler.get();
         assertTrue(System.currentTimeMillis() >= future);
     }
+
+    @Test
+    public void test() throws Exception {
+        assertTrue(true);
+    }
 }
